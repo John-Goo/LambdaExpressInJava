@@ -20,6 +20,9 @@ public class LambdaDemo {
 		MyInterface intf2 = ()->{
 			System.out.println("==>lambad函数表达式的实现方式（2）.");
 		};
+		/**
+		 * 驱动方法执行
+		 */
 		intf2.f1();
 	}
 
