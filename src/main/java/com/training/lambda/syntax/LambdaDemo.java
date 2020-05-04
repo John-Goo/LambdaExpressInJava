@@ -26,5 +26,8 @@ public class LambdaDemo {
 }
 
 interface MyInterface{
+	/**
+	 * f1()方法接口
+	 */
 	public void f1();
 }
