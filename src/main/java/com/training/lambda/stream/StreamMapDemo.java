@@ -24,10 +24,11 @@ import java.util.function.Function;
 public class StreamMapDemo {
 
 	public static void main(String[] args) {
-		List<Student> list = Arrays.asList(new Student(1L, "张三", 21),
-				new Student(2L, "李四", 18),
-				new Student(2L, "王二", 40),
-				new Student(2L, "麻子", 20)
+		List<Student> list = Arrays.asList(
+				new Student(1L,"张三",45,"深圳"),
+				new Student(2L,"李四",21,"深圳"),
+				new Student(3L,"王二",22,"深圳"),
+				new Student(4L,"麻子",12,"深圳")
 		);
 		// 转换Stream<List<Student>> ==>Stream<String>
 		/**
