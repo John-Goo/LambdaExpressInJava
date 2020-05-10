@@ -21,9 +21,8 @@ import java.util.stream.Stream;
  *
  */
 public class StreamFlatMapDemo {
-
 	public static void main(String[] args) {
-		/**
+		/*
 		 * 创建数据集
 		 */
 		List<Integer> a = Arrays.asList(1,2,3);
